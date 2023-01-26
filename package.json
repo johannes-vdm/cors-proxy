@@ -1,0 +1,35 @@
+{
+  "name": "premier-league-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 3000",
+    "serve": "nodemon ./server.ts --port 3001",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "axios": "^1.2.5",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http": "0.0.1-security",
+    "http-proxy": "^1.18.1",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.16",
+    "@types/node": "^18.11.18",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "nodemon": "^2.0.20",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.0"
+  }
+}
