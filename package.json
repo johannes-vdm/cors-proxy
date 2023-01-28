@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-   // "dev": "vite --port 3000",
-    "serve": "nodemon ./server.ts --port 3001",
+    "serve": "npx nodemon ./proxy-server.ts",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
@@ -16,12 +15,14 @@
     "express": "^4.18.2",
     "http": "0.0.1-security",
     "http-proxy": "^1.18.1",
+    "proxy-server": "^1.2.0",
+    "ts-node": "^10.9.1",
     "vue": "^3.2.45"
   },
   "devDependencies": {
     "@types/express": "^4.17.16",
+    "@types/http-proxy": "^1.17.9",
     "@types/node": "^18.11.18",
-    "@vitejs/plugin-vue": "^4.0.0",
     "autoprefixer": "^10.4.13",
     "concurrently": "^7.6.0",
     "eslint": "^8.22.0",
